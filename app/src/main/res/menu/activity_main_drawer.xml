@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_meds"
+            android:icon="@drawable/ic_medical"
+            android:title="@string/menu_all_meds" />
+        <item
+            android:id="@+id/nav_controlled_meds"
+            android:icon="@drawable/ic_baseline_do_not_disturb_on_24"
+            android:title="@string/menu_controlled_meds" />
+        <item
+            android:id="@+id/nav_not_controlled_meds"
+            android:icon="@drawable/ic_baseline_do_not_disturb_off_24"
+            android:title="@string/menu_not_controlled_meds" />
+    </group>
+</menu>

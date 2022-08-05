@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_all_meds">
+
+    <fragment
+        android:id="@+id/nav_all_meds"
+        android:name="com.jessimobilesolutions.yourremedies.view.MedsFragment"
+        android:label="@string/menu_all_meds"
+        tools:layout="@layout/fragment_all_meds" />
+
+    <fragment
+        android:id="@+id/nav_controlled_meds"
+        android:name="com.jessimobilesolutions.yourremedies.view.ControlledMedsFragment"
+        android:label="@string/menu_controlled_meds"
+        tools:layout="@layout/fragment_controlled_meds" />
+
+    <fragment
+        android:id="@+id/nav_not_controlled_meds"
+        android:name="com.jessimobilesolutions.yourremedies.view.NotControlledMedsFragment"
+        android:label="@string/menu_not_controlled_meds"
+        tools:layout="@layout/fragment_not_controlled_meds" />
+</navigation>
